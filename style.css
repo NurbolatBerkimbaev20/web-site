@@ -1,0 +1,368 @@
+.p {
+	display: inline-block;
+	position: absolute;
+	top: 20px;
+	left: 15px;
+	color: white;
+	z-index: 2;
+}
+
+.menu {
+	display: inline-block;
+	position: absolute;
+	right: 15px;
+	top: 20px;
+	color: white;
+	z-index: 1;
+}
+
+.img {
+	display: inline-block;
+	position: absolute;
+	left: 1px;
+}
+
+.overlay {
+	background: linear-gradient(135deg, #ffffff 0%, #222222 30%);
+	content: " ";
+	opacity: .4;
+	display: block;
+	position: absolute;
+	height: 800px;
+	width: 100%;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	top: 10px;
+	z-index: 1;
+}
+
+h1 {
+    display: inline-block;
+	position: absolute;
+	text-align: center;
+	top: 250px;
+	left: 35%;
+	font-size: 70px;
+	color: white;
+	z-index: 1;
+}
+
+.br {
+    display: inline-block;
+	position: absolute;
+	text-align: center;
+	top: 300px;
+	left: 30%;
+	font-size: 20px;
+	padding-top: 80px;
+	color: white;
+	z-index: 1; 
+}
+
+button {
+	display: inline;
+	position: absolute;
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	float: center;
+	background-color: blue;
+	font-size: 20px;
+	color: white;
+	border-radius: 5px;
+	top: 550px;
+	left: 45%;
+	z-index: 1;
+}
+
+.div {
+	display: inline-block;
+	background-color: ;
+	padding-top: 800px;
+	width: 100%;
+	height: 500px;
+}
+
+.img1 {
+	 display: inline-block;
+	 margin-top: 100px;
+	 margin-left: 180px;
+	 border-radius: 100%;
+}
+
+.h1 {
+	top: 900px;
+	left: 530px;
+	color: black;
+	font-size: 27px;
+	padding-bottom: 35px;
+} 
+
+.p1 {
+	top: 1000px;
+	left: 530px;
+	position: absolute;
+	float: left;
+	color: grey;
+}
+
+.button1 {
+	display: inline;
+	position: absolute;
+	width: 120px;
+	height: 40px;
+	text-align: center;
+	float: center;
+	background-color: #73b4cd;
+	font-size: 14px;
+	color: white;
+	border-radius: 5px;
+	top: 1225px;
+	left: 42%;
+	z-index: 1;
+}
+
+.div1 {
+	display: block;
+	width: 100%;
+	height: 500px;
+	background-color: #73b4cd;
+}
+
+.img2 {
+	 display: inline-block;
+	 margin-left: 815px;
+	 margin-top: 100px;
+	 border-radius: 100%;
+}
+
+.h12 {
+	display: inline-block;
+	top: 1400px;
+	left: 200px;
+	color: black;
+	font-size: 27px;
+	padding-bottom: 35px;
+	float: left;
+	z-index: 2;
+} 
+
+.p2 {
+	display: inline-block;
+	top: 1465px;
+	left: 200px;
+	position: absolute;
+	float: left;
+	color: grey;
+}
+
+.button2 {
+	display: inline-block;
+	position: absolute;
+	width: 120px;
+	height: 40px;
+	text-align: center;
+	float: center;
+	background-color: white;
+	font-size: 14px;
+	color: blue;
+	border-radius: 5px;
+	top: 1700px;
+	left: 200px;
+	z-index: 1;
+}
+
+.div2 {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 700px;
+	background-color: #f2f2f2;
+}
+
+.h13 {
+	display: block;
+	font-size: 40px;
+	float: center;
+	text-align: center;
+	color: black;
+	top: 50px;
+	z-index: 1;
+}
+.sbheader {
+	display: block;
+	color: grey;
+	padding-top: 120px;
+	text-align: center;
+	float: center;
+}
+
+.img3 {
+	 display: inline-block;
+	 position: absolute;
+	 margin-left: 110px;
+	 margin-top: 50px;
+	 float: left;
+	 border-radius: 100%;
+}
+
+.p3 {
+	display: inline-block;
+	position: absolute;
+	color: grey;
+	float: left;
+	text-align: center;
+	padding-top: 300px;
+	left: 120px;
+	line-height: 20px;
+}
+
+.button3 {
+	display: inline-block;
+	position: absolute;
+	width: 120px;
+	height: 40px;
+	text-align: center;
+	float: center;
+	float: left;
+	background-color: blue;
+	font-size: 14px;
+	color: white;
+	border-radius: 5px;
+	margin-top: 60px;
+	left: 170px;
+	z-index: 1;
+}
+
+.img4 {
+	 display: inline-block;
+	 position: absolute;
+	 left: 500px;
+	 margin-top: 235px;
+	 float: center;
+	 text-align: center;
+	 border-radius: 100%;
+}
+
+.p4 {
+	display: inline-block;
+	position: absolute;
+	color: grey;
+	float: center;
+	text-align: center;
+	padding-top: 490px;
+	left: 515px;
+	line-height: 20px;
+}
+
+.button4 {
+	display: inline-block;
+	position: absolute;
+	width: 120px;
+	height: 40px;
+	text-align: center;
+	float: center;
+	background-color: blue;
+	font-size: 14px;
+	color: white;
+	border-radius: 5px;
+	margin-top: 1865px;
+	left: 560px;
+	z-index: 1;
+}
+
+.img5 {
+	 display: inline-block;
+	 position: absolute;
+	 right: 110px;
+	 margin-top: 235px;
+	 float: center;
+	 text-align: center;
+	 border-radius: 100%;
+}
+
+.p5 {
+	display: inline-block;
+	position: absolute;
+	color: grey;
+	float: center;
+	text-align: center;
+	padding-top: 490px;
+	right: 130px;
+	line-height: 20px;
+}
+
+.button5 {
+	display: inline-block;
+	position: absolute;
+	width: 120px;
+	height: 40px;
+	text-align: center;
+	float: center;
+	background-color: blue;
+	font-size: 14px;
+	color: white;
+	border-radius: 5px;
+	margin-top: 1865px;
+	left: 965px;
+	z-index: 1;
+}
+
+.div3 {
+	display: block;
+	width: 100%;
+	height: 200px;
+	top: 200px;
+	background-color: none;
+	z-index: 1;
+}
+
+.twit {
+	display: inline-block;
+	position: absolute;
+	border-radius: 100%;
+	margin-top: 775px;
+	padding: 20px;
+	left: 480px;
+}
+
+.face {
+	display: inline-block;
+	position: absolute;
+	border-radius: 100%;
+	margin-top: 775px;
+	padding: 20px;
+	left: 550px;
+}
+
+.inst {
+	display: inline-block;
+	position: absolute;
+	border-radius: 100%;
+	margin-top: 775px;
+	padding: 20px;
+	left: 620px;
+}
+
+.snap {
+	display: inline-block;
+	position: absolute;
+	border-radius: 100%;
+	margin-top: 775px;
+	padding: 20px;
+	left: 690px;
+}
+
+.p6 {
+	display: block;
+	position: absolute;
+	text-align: center;
+	float: center;
+	top: 2620px;
+	left: 32%;
+	color: lightgrey;
+	margin-bottom: 100px;
+	padding-top: 50px;
+	z-index: 1;
+}
